@@ -47,7 +47,7 @@ images:
 - name: terminal-controller-manager
   sourceRepository: github.com/gardener/terminal-controller-manager
   repository: europe-docker.pkg.dev/gardener-project/releases/gardener/terminal-controller-manager
-  tag: "v0.31.0"
+  tag: "v0.32.0"
 
 # Seed bootstrap
 - name: pause-container
