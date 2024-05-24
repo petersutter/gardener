@@ -43,11 +43,11 @@ images:
 - name: gardener-dashboard
   sourceRepository: github.com/gardener/dashboard
   repository: europe-docker.pkg.dev/gardener-project/releases/gardener/dashboard
-  tag: "1.75.0"
+  tag: "1.74.0"
 - name: terminal-controller-manager
   sourceRepository: github.com/gardener/terminal-controller-manager
   repository: europe-docker.pkg.dev/gardener-project/releases/gardener/terminal-controller-manager
-  tag: "v0.32.0"
+  tag: "v0.31.0"
 
 # Seed bootstrap
 - name: pause-container
@@ -132,7 +132,7 @@ images:
 - name: machine-controller-manager
   sourceRepository: github.com/gardener/machine-controller-manager
   repository: europe-docker.pkg.dev/gardener-project/releases/gardener/machine-controller-manager
-  tag: "v0.53.0"
+  tag: "v0.52.0"
   labels:
   - name: gardener.cloud/cve-categorisation
     value:
